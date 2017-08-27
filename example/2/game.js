@@ -15,7 +15,7 @@ game.camera.rotate_rl(Math.PI);
 
 const group = new Cervus.Entity();
 const cube = new Cervus.shapes.Box({
-  material: Cervus.materials.phong
+  material: Cervus.materials.wire
 });
 cube.color = "#BADA55";
 cube.scale = [1, 1, 1];
